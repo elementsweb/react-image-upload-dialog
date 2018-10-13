@@ -1,0 +1,51 @@
+{
+  "name": "@j154004/react-image-upload-dialog",
+  "version": "1.0.0",
+  "description": "React based image upload dialog component",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && babel src -d dist --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook --output-dir docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elementsweb/react-image-upload-dialog.git"
+  },
+  "keywords": [
+    "react",
+    "image",
+    "upload",
+    "dialog"
+  ],
+  "author": "elementsweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elementsweb/react-image-upload-dialog/issues"
+  },
+  "homepage": "https://github.com/elementsweb/react-image-upload-dialog#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.2.0",
+    "@material-ui/icons": "^3.0.1",
+    "classnames": "^2.2.6",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-dropzone": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^3.4.11",
+    "@storybook/addon-links": "^3.4.11",
+    "@storybook/addons": "^3.4.11",
+    "@storybook/react": "^3.4.11",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-runtime": "^6.26.0",
+    "rimraf": "^2.6.2"
+  }
+}
